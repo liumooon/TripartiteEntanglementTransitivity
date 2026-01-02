@@ -11,7 +11,7 @@ For instance, a state whose marginals $\rho_{AB}, \rho_{BC}$ are NPPT while $\rh
 
 Each `catXYZ` is a cell array with three columns:
 - `catXYZ{i,1}`: the $i$-th generated state
-- `catXYZ{i,1}`: the $i$-th optimized compatible state
+- `catXYZ{i,2}`: the $i$-th optimized compatible state
 - `catXYZ{i,3}`: the fidelity $\mathcal{F}$ between the generated state and the optimized compatible state returned by the SDP described in **Appendix G** in the paper.
 
 In the data provided here, one observes that $1-\mathcal{F} < 10^{-6}$.
