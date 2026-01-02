@@ -5,7 +5,7 @@ Matlab data relevant to **Table II** in the preprint [Large Parts are Genericall
 For each dimension triple $(d_A,d_B,d_C)$ not covered by the regime considered in **Theorem 4**, we generate 500 Haar-random pure tripartite states. 
 In the case of $d_A=2,d_B=4,d_C=2$, for example, the output is saved in file `A2_B4_C2.mat`. 
 
-The states are further classified into 8 categories `catXYZ` by their marginal entanglement, using the PPT criterio.
+The states are further classified into 8 categories `catXYZ` by their marginal entanglement, using the PPT criterion.
 The three letters XYZ record the marginal entanglement status in the order of $(AB,BC,AC)$.
 For instance, a state whose marginals $\rho_{AB}, \rho_{BC}$ are NPPT while $\rho_{AC}$ is PPT is stored in `catNNP`.
 
