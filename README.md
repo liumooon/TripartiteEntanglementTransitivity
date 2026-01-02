@@ -1,6 +1,6 @@
 # Generic Tripartite Entanglement Transitivity 
 
-Matlab data relevant **Table II** in the preprint [Large Parts are Generically Entangled Across All Cuts](https://iopscience.iop.org/article/10.1088/2058-9565/ae30a4/pdf). 
+Matlab data relevant to **Table II** in the preprint [Large Parts are Generically Entangled Across All Cuts](https://iopscience.iop.org/article/10.1088/2058-9565/ae30a4/pdf). 
 
 For each dimension triple $(d_A,d_B,d_C)$ not covered by the regime considered in **Theorem 4**, we generate 500 Haar-random pure tripartite states. 
 In the case of $d_A=2,d_B=4,d_C=2$, for example, the output is saved in file `A2_B4_C2.mat`. 
