@@ -9,9 +9,10 @@ The states are further classified into 8 categories `catXYZ` by their marginal e
 The three letters XYZ record the marginal entanglement status in the order of $(AB,BC,AC)$.
 For instance, a state whose marginals $\rho_{AB}, \rho_{BC}$ are NPPT while $\rho_{AC}$ is PPT is stored in `catNNP`.
 
-Each `catXYZ` is a cell array with two columns:
+Each `catXYZ` is a cell array with three columns:
 - `catXYZ{i,1}`: the $i$-th generated state
-- `catXYZ{i,2}`: the fidelity $\mathcal{F}$ between the generated state and the optimized compatible state returned by the SDP described in **Appendix G** in the paper.
+- `catXYZ{i,1}`: the $i$-th optimized compatible state
+- `catXYZ{i,3}`: the fidelity $\mathcal{F}$ between the generated state and the optimized compatible state returned by the SDP described in **Appendix G** in the paper.
 
 In the data provided here, one observes that $1-\mathcal{F} < 10^{-6}$.
 This indicates that, within numerical precision of the optimization, the global state is uniquely determined by the marginals $\rho_{AB}$ and $\rho_{BC}$.
