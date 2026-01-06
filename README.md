@@ -1,4 +1,4 @@
-# Generic Tripartite Entanglement Transitivity 
+# Generic Tripartite Entanglement Transitivity in Unproven Dimension Regions
 
 Matlab data relevant to **Table II** in the preprint [Large Parts are Generically Entangled Across All Cuts](https://iopscience.iop.org/article/10.1088/2058-9565/ae30a4/pdf). 
 
